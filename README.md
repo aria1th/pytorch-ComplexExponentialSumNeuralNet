@@ -7,8 +7,9 @@ Dependendies: https://github.com/soumickmj/pytorch-complex <Pytorch - Complex>, 
 
 # Usage
 
-` from model.ComplexModel import *
-model = SingleApprox(in_var=env.observation_space.shape[0], final_var=env.action_space.n,
+` from model.ComplexModel import *`
+
+`model = SingleApprox(in_var=env.observation_space.shape[0], final_var=env.action_space.n,
                          features=256) # creates in_var -> features -> final simple linear model without Activations.
 `
 
