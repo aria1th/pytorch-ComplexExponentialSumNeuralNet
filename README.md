@@ -20,3 +20,5 @@ Dependendies: https://github.com/soumickmj/pytorch-complex <Pytorch - Complex>, 
 # Problems
 Without activation function, the model learns Cartpole, MountainCar pretty well (can pass tests with 480 seconds training). But with double, triple layers, model weight will diverge, leading to NaN, depends on its initial weight. It means there should be other methods to regulate complex weights, which was easy in real numbers.
 
+# Element-wise Coefficients
+These types of neural net can have simple Linear layers after exponential, or just simple coefficients. Coefficients can be effectively calculated via fourier transform... theoritically.
